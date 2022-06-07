@@ -5,3 +5,40 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('../fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish/static/Mulish-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../fonts/Jost/static/Jost-Regular.ttf');
+}
+
+:root {
+  --font-title: 'Barlow';
+  --font-description: 'Mulish';
+  --font-tag: 'Jost';
+}
+
+html,
+body {
+  font-family: var(--font-description);
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+  font-weight: 500;
+}
