@@ -25,6 +25,7 @@
   --font-title: 'Barlow';
   --font-description: 'Mulish';
   --font-tag: 'Jost';
+  --main-color:#ffb400;
 }
 
 html,
@@ -42,3 +43,104 @@ h6 {
   font-family: var(--font-title);
   font-weight: 500;
 }
+
+.count{
+  background-image: url(/assets/img/img-9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.count-item{
+  margin-top: 48px;
+  transition: all 1s;
+}
+.count-item i,span{
+  color: var(--main-color);
+}
+.count-item i{
+  font-size: 45px;
+
+}
+.count-item h1{
+  font-size: 30px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.count-item h5{
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+
+}
+.count-item:hover {
+  margin-top: 25px;
+}
+
+
+.title{
+  position: relative;
+}
+.title h2{
+  text-transform: uppercase;
+  color: #bdbdbd86;
+  font-size: 100px;
+}
+.title h3{
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  
+  left:20px;
+  bottom: 10%;
+  font-size: 44px;
+
+}
+.part-2 .card{
+  height: 450px;
+  width: 300px;
+  margin: 0 10px;
+}
+.part-3{
+  background-image: url("/assets/img/img-8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  
+
+}
+.part-3 .title h2{
+  font-size:80px
+}
+.part-3 .title h3{
+  color: white;
+  font-size: 25px;
+}
+.client{
+  clip-path: polygon(0 46%, 100% 32%, 100% 100%, 0% 100%);
+  background-color: #ffb400;
+  width: 510px;
+  height: 450px;
+  margin: 0 70px !important;
+ 
+
+}
+.img-top{
+  width: 150px;
+  height: 150px;
+  border: 1px;
+  border-radius: 50%;
+  background-image: url("/assets/img/avatar-1.jpg");
+  position: relative;
+  top: 38%;
+  left: 331px;
+  z-index: 10;
+}
+.img-top img{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
