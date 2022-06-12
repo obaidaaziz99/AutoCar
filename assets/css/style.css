@@ -45,7 +45,7 @@ h6 {
 }
 
 .count{
-  background-image: url(/assets/img/img-9.jpg);
+  background-image: url(../img/img-9.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@ h6 {
   margin: 0 10px;
 }
 .part-3{
-  background-image: url("/assets/img/img-8.jpg");
+  background-image: url("../img/img-8.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -132,7 +132,7 @@ h6 {
   height: 150px;
   border: 1px;
   border-radius: 50%;
-  background-image: url("/assets/img/avatar-1.jpg");
+  background-image: url("assets/img/avatar-1.jpg");
   position: relative;
   top: 38%;
   left: 331px;
